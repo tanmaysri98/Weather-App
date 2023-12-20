@@ -1,0 +1,23 @@
+/* src/App.css */
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Add responsive styles based on screen size (Android and iOS) */
+@media screen and (max-width: 412px) {
+  .App {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .App {
+    font-size: 12px;
+  }
+}
